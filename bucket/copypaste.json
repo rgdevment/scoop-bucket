@@ -1,0 +1,22 @@
+{
+  "version": "2.10.0",
+  "description": "Clipboard history manager",
+  "homepage": "https://github.com/rgdevment/CopyPaste",
+  "license": "GPL-3.0-only",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/rgdevment/CopyPaste/releases/download/v2.10.0/CopyPaste_2.10.0_x64_Setup.exe",
+      "hash": "54e758e886f262128823e1a96a8cdaf1c840df3efa285a4b72958a7aa16b6b10"
+    }
+  },
+  "innosetup": true,
+  "shortcuts": [
+    [
+      "CopyPaste.exe",
+      "CopyPaste"
+    ]
+  ],
+  "pre_uninstall": [
+    "Remove-ItemProperty -Path 'HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run' -Name 'CopyPaste' -ErrorAction SilentlyContinue"
+  ]
+}
