@@ -1,13 +1,13 @@
 {
-  "version": "0.1.0-rc2",
+  "version": "0.1.0-rc3",
   "description": "Local, private task manager whose archive is the point (beta)",
   "homepage": "https://github.com/rgdevment/Tisty",
   "license": "AGPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/rgdevment/Tisty/releases/download/v0.1.0-rc2/tisty-0.1.0-rc2-windows-x86_64.zip",
-      "hash": "e9703b6bdb0e137f5b271c5454d8ad7847c33ca14863a94b180973a422568212",
-      "extract_dir": "tisty-0.1.0-rc2-windows-x86_64"
+      "url": "https://github.com/rgdevment/Tisty/releases/download/v0.1.0-rc3/tisty-0.1.0-rc3-windows-x86_64.zip",
+      "hash": "599338979c371002925638bae8c4277e31008e2e9d3c7887ed539ed6490e0491",
+      "extract_dir": "tisty-0.1.0-rc3-windows-x86_64"
     }
   },
   "bin": "tisty.exe"
