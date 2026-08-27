@@ -1,12 +1,12 @@
 {
-  "version": "2.11.0",
+  "version": "2.12.0",
   "description": "Clipboard history manager",
   "homepage": "https://github.com/rgdevment/CopyPaste",
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/rgdevment/CopyPaste/releases/download/v2.11.0/CopyPaste_2.11.0_x64_Setup.exe",
-      "hash": "30652c46842ea30099bd361ce9bf9fa6c6cfdb2f069481d83e9c0cad840a3bfb"
+      "url": "https://github.com/rgdevment/CopyPaste/releases/download/v2.12.0/CopyPaste_2.12.0_x64_Setup.exe",
+      "hash": "268e42cb88fda7c0336ea6bc246dbb34694a88de8c29cc7721db92da982dd3aa"
     }
   },
   "innosetup": true,
